@@ -1,0 +1,35 @@
+:root {
+  --cd-red: rgb(196,18,46);
+  --cd-blue: rgb(36,64,142);
+  --cd-alternative-blue: rgb(0,96,174);
+  --black: rgb(51,51,51);
+  --white: rgb(249,249,249);
+  --primary-blue: rgb(19,131,179);
+  --secondary-blue: rgb(11,80,110);
+  --label-color: rgb(13, 102, 139);
+  --malcolm: rgb(224,228,231);
+  --silver: rgb(218,218,218);
+  --gray-2: rgb(34,34,34);
+  --gray-3: rgb(51,51,51);
+  --gray-4: rgb(68,68,68);
+  --gray-6: rgb(102,102,102);
+  --gray-8: rgb(136,136,136);
+  --gray-9: rgb(153,153,153);
+  --gainsboro: rgb(218,218,218);
+  --white-smoke: rgb(234,234,234);
+  --primary-red: rgb(205,51,45);
+  --validation-red: rgb(235,195,200);
+  --primary-yellow: rgb(247,188,55);
+  --validation-yellow: rgb(243,228,195);
+  --primary-green: rgb(79,138,16);
+  --secondary-green: rgb(121,167,32);
+  --validation-green: rgb(194,230,202);
+  --toggle-active: rgb(104, 202, 51);
+  --toggle-inactive: rgb(214, 74, 74);
+
+  --gutter-width: 20px;
+
+  /* These don't work in Vue yet :/ */
+  @custom-media --small-viewport (max-width: 25rem);
+  @custom-media --medium-viewport (max-width: 50rem)
+}
